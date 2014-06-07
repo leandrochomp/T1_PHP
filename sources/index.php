@@ -1,12 +1,9 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="app/css/bootstrap.css" rel="stylesheet">
-  <link href="app/css/bootstrap-theme.css" rel="stylesheet">
-  <link href="app/css/font-awesome.min.css" rel="stylesheet">
-  <link href="app/css/style.css" rel="stylesheet">
+<?php  
+  include('includes/include-css.php');
+?>
 </head>
 <body>
   <nav class="navbar navbar-inverse" role="navigation">
@@ -26,14 +23,19 @@
         <li class="active"><a href="sobre.php">Sobre</a></li>
         <li><a href="#">Formação</a></li>
         <li><a href="#">Experiência</a></li>
+        <li><a href="ex5/mdc-form.php">TESTE</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portifólio<b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="05.php">Exercicio 01</a></li>
             <li><a href="05.php">Exercicio 02</a></li>
             <li><a href="05.php">Exercicio 03</a></li>
-            <li><a href="05.php">Exercicio 04</a></li>
-            <li><a href="05.php">Exercicio 05</a></li>
+            <li><a href="ex4/mostraPDF.php">Exercicio 04</a></li>
+            <li><a href="#">Exercicio 05</a></li>
+            <li class="divider"></li>
+            <li><a href="ex5/mdc-form.php">MDC</a></li>
+            <li><a href="ex5/fibonacci-form.php">Fibonacci</a></li>
+            <li class="divider"></li>
             <li><a href="05.php">Exercicio 06</a></li>
             <li><a href="05.php">Exercicio 07</a></li>
             <li><a href="05.php">Exercicio 08</a></li>
@@ -43,9 +45,9 @@
     </div>
   </div>
 </nav>
-    <script src="app/js/jquery-1.11.0.js "></script>
-    <script src="app/js/bootstrap.js"></script>
-    <script src="app/js/app.js"></script>
+    <?php  
+      include('includes/include-js.php');
+    ?>
 </body>
-<?php include('footer.php'); ?>
+<?php include('includes/include-footer.php'); ?>
 </html>
