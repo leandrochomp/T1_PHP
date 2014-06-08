@@ -35,11 +35,7 @@
             <li><a href="ex5/mdc-form.php">MDC</a></li>
             <li><a href="ex5/fibonacci-form.php">Fibonacci</a></li>
             <li class="divider"></li>
-            <li><a href="#">Exercicio 06</a></li>
-            <li class="divider"></li>
-            <li><a href="ex6/index.php">Cadastrar</a></li>
-            <li><a href="ex6/login.php">Acessar</a></li>
-            <li class="divider"></li>
+            <li><a href="05.php">Exercicio 06</a></li>
             <li><a href="05.php">Exercicio 07</a></li>
             <li><a href="05.php">Exercicio 08</a></li>
           </ul>
@@ -49,33 +45,70 @@
   </div>
 </nav>
 <div class="container">
-  <div>
-    <p>Bem vindo ao meu portifólio, meu nome é Leandro Nascimento. 
-    <p> Atualmente estou no ultimo semestre no curso de Análise e Desenvolvimento de Sistemas na <a href="http://www.unimonte.br/capa/">UNIMONTE</a>.</p>
-      Fiz diversos cursos de programação, e quero sempre aprender mais, para saber mais sobre minha carreira acesse a aba Experiencia.
-    </p>
-    
-  </div>
-  <div> 
-    <h1>Contatos </h1>
-  </div>
+  <h3><a href="#" target="_blank">Imprima aqui</a></h3>
+  <h1>Leandro Nascimento</h1>
 
-  <div>
-    <a href="http://www.linkedin.com/pub/leandro-nascimento/32/bab/558"> <img src="app/img/linkedin.png"></a>
-    <a href="https://twitter.com/chomp_"> <img src="app/img/twitter.png"></a>
-    <a href="https://www.facebook.com/leandro.nascimento.9480"> <img src="app/img/facebook.png"></a>
-  </div>
-  <br>
-  <br>
-  <div>
-    <p> Para maiores informações sobre projetos realizados ou em andamento acesse meu Github.</p>
-    <a href="https://github.com/leandrochomp"> <img src="app/img/github.png"></a>
-  </div>
+  <p><strong>Formação</strong></p>
+  <p>
+    Centro Universitário Monte Serrat - UNIMONTE 
+  </p>
+  <p>
+    Curso: Analise e Desenvolvimento de Sistemas - Ciclo: 5º Semestre (cursando) 
+  </p>
+  <p>
+    Período: Noturno
+  </p>
+  <span><strong> Cursos Realizados </strong> <p></p> </span>
+  <p>
+    SENAI – C#.NET - (2010). 
+  </p>
+  <p>
+    TECNOPONTA – C#.NET Avançado com SQL - (2010). 
+  </p>
+  <p>
+    TECNOPONTA – Java com JSP e Servlets / MySQL – (2011).
+  </p>
+  
+  <p><strong>Habilidades e Competências</strong></p>
+  <ul>
+    <li>MODELAGEM DE DADOS;</li>
+    <li>UML;</li>
+    <li>LEVANTAMENTO DE REQUISITOS;</li>
+    <li>ENTREVISTA COM CLIENTES;</li>
+    <li>ENGENHARIA DE SOFTWARE;</li>
+    <li>ARQUITETURA DE SISTEMAS;</li>
+    <li>
+      METODOLOGIAS ÁGEIS;
+      <ul>
+        <li>SCRUM;</li>
+        <li>XP.</li>
+      </ul>
+    </li>
+    <li>REDES DE COMPUTADORES</li>
+  </ul>
 
+  <p><strong>Linguagens de Programação</strong></p>
+  <ul>
+    <li>PHP;</li>
+    <li>ASP.NET;</li>
+    <li>C#.NET;</li>
+    <li>Java</li>
+    <li>Javascript;</li>
+      <ul>
+        <li>JQuery;</li>
+        <li>AngularJS</li>
+        <li>KnockoutJS</li>
+      </ul>
+    <li>HTML5;</li>
+    <li>CSS3;</li>
+    <li>Twitter Bootstrap.</li>
+  </ul>
+  <p><strong>Banco de dados</strong></p>
+  <ul>
+    <li>MySQL;</li>
+    <li>Oracle;</li>
+    <li>SQL Server</li>
+  </ul>
 </div>
-    <?php  
-      include('includes/include-js.php');
-      include('includes/include-footer.php');
-    ?>
 </body>
 </html>

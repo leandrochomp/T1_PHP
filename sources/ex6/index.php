@@ -1,10 +1,18 @@
+<?php 
+	if (isset($_COOKIE["nome"]))
+		header("Location: login.php");
+?>
 <!doctype html>
 <html lang="pt-BR">
 <head>
-<?php  
-  include('includes/include-css.php');
-?>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="../app/css/bootstrap.css" rel="stylesheet">
+	<link href="../app/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="../app/css/font-awesome.min.css" rel="stylesheet">
+	<link href="../app/css/style.css" rel="stylesheet">
 </head>
+
 <body>
   <nav class="navbar navbar-inverse" role="navigation">
   <div class="container-fluid">
@@ -48,34 +56,42 @@
     </div>
   </div>
 </nav>
+
 <div class="container">
-  <div>
-    <p>Bem vindo ao meu portifólio, meu nome é Leandro Nascimento. 
-    <p> Atualmente estou no ultimo semestre no curso de Análise e Desenvolvimento de Sistemas na <a href="http://www.unimonte.br/capa/">UNIMONTE</a>.</p>
-      Fiz diversos cursos de programação, e quero sempre aprender mais, para saber mais sobre minha carreira acesse a aba Experiencia.
-    </p>
-    
-  </div>
-  <div> 
-    <h1>Contatos </h1>
-  </div>
+	<form action="registro.php" method="POST" class="form-horizontal" role="form">
+	  <div class="form-group">
+	    <label class="col-sm-2 control-label">Email</label>
+	    <div class="col-sm-3">
+	      <input type="email" name="txtemail" class="form-control" placeholder="Email" title="digite o email" required="required">
+	    </div>
+	  </div>
+	  
+	  <div class="form-group">
+	    <label class="col-sm-2 control-label">Nome</label>
+	    <div class="col-sm-3">
+	      <input type="text" name="txtnome" class="form-control" placeholder="Nome" title="digite o nome" required="required">
+	    </div>
+	  </div>
 
-  <div>
-    <a href="http://www.linkedin.com/pub/leandro-nascimento/32/bab/558"> <img src="app/img/linkedin.png"></a>
-    <a href="https://twitter.com/chomp_"> <img src="app/img/twitter.png"></a>
-    <a href="https://www.facebook.com/leandro.nascimento.9480"> <img src="app/img/facebook.png"></a>
-  </div>
-  <br>
-  <br>
-  <div>
-    <p> Para maiores informações sobre projetos realizados ou em andamento acesse meu Github.</p>
-    <a href="https://github.com/leandrochomp"> <img src="app/img/github.png"></a>
-  </div>
+	  <div class="form-group">
+	    <label for="inputPassword3" class="col-sm-2 control-label">Senha</label>
+	    <div class="col-sm-3">
+	      <input type="password" class="form-control" name="txtpass" placeholder="Senha" title="digite a senha" required="required">
+	    </div>
+	  </div>
 
+	  <div class="form-group">
+	    <div class="col-sm-offset-2 col-sm-10">
+	      <button type="submit" name="btnSubmit" class="btn btn-default">Cadastrar</button>
+	    </div>
+	  </div>
+	</form>
 </div>
-    <?php  
-      include('includes/include-js.php');
-      include('includes/include-footer.php');
-    ?>
-</body>
-</html>
+
+<script src="../app/js/jquery-1.11.0.js "></script>
+<script src="../app/js/bootstrap.js"></script>
+<script src="../app/js/app.js"></script>
+<?php 
+	include('../includes/include-css.php'); 
+	include('../includes/include-footer.php');
+?> 
