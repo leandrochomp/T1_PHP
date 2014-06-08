@@ -54,27 +54,21 @@
 </nav>
 
 <div class="container">
-	<form action="valida.php" method="POST" class="form-horizontal" role="form">
-		  <div class="form-group">
-		    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-		    <div class="col-sm-3">
-		      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-		    </div>
-		  </div>
-
-		  <div class="form-group">
-		    <label for="inputPassword3" class="col-sm-2 control-label">Senha</label>
-		    <div class="col-sm-3">
-		      <input type="password" class="form-control" id="inputPassword3" placeholder="Password" required="required">
-		    </div>
-		  </div>
-
-		  <div class="form-group">
-		    <div class="col-sm-offset-2 col-sm-10">
-		      <button type="submit" name="btnSubmit" class="btn btn-default">Entrar</button>
-		    </div>
-		  </div>
-	</form>
+<?php 
+	switch($_GET["id"]){
+		case 1:
+			echo "Seus dados foram armazenados com sucesso e o navegador ja pode ser fechado";
+			break;
+		case 2:
+			echo "Ola " . $_COOKIE['nome'];
+			break;
+		case 3:
+			echo "Senha e/ou Login incorretos. <br/><a href='login.php'>Retornar</a>";
+			break;
+		default:
+			echo "sabe de nada inocente!";
+	}
+?>	
 </div>
 
 <script src="../app/js/jquery-1.11.0.js "></script>
@@ -84,3 +78,4 @@
 	include('../includes/include-css.php'); 
 	include('../includes/include-footer.php');
 ?> 
+

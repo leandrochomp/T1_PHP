@@ -1,12 +1,14 @@
 <?php 
-	include('../index.php');
+	include('../menu.php');
 ?>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="../app/css/bootstrap.css" rel="stylesheet">
-<link href="../app/css/bootstrap-theme.css" rel="stylesheet">
-<link href="../app/css/font-awesome.min.css" rel="stylesheet">
-<link href="../app/css/style.css" rel="stylesheet">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="../../app/css/bootstrap.css" rel="stylesheet">
+	<link href="../../app/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="../../app/css/font-awesome.min.css" rel="stylesheet">
+	<link href="../../app/css/style.css" rel="stylesheet">
+</head>
 
 <div class="container">
 
@@ -28,7 +30,3 @@
 <script src="../app/js/jquery-1.11.0.js "></script>
 <script src="../app/js/bootstrap.js"></script>
 <script src="../app/js/app.js"></script>
-<?php 
-	include('../includes/include-css.php'); 
-	include('../includes/include-footer.php');
-?> 

@@ -1,6 +1,6 @@
 <?php 
-	$nome = $_POST["txtNome"];
 	$email = $_POST["txtEmail"];
+	$nome = $_POST["txtNome"];
 	$senha = $_POST["txtSenha"];
 /*
 time()+60*60*24*30

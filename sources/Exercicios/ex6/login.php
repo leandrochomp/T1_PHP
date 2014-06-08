@@ -1,7 +1,3 @@
-<?php 
-	if (isset($_COOKIE["nome"]))
-		header("Location: login.php");
-?>
 <!doctype html>
 <html lang="pt-BR">
 <head>
@@ -23,7 +19,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">T1_Leandro Nascimento</a>
+      <a class="navbar-brand" href="index.php">T1_Leandro Nascimento</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -58,33 +54,26 @@
 </nav>
 
 <div class="container">
-	<form action="registro.php" method="POST" class="form-horizontal" role="form">
-	  <div class="form-group">
-	    <label class="col-sm-2 control-label">Email</label>
-	    <div class="col-sm-3">
-	      <input type="email" name="txtemail" class="form-control" placeholder="Email" title="digite o email" required="required">
-	    </div>
-	  </div>
-	  
-	  <div class="form-group">
-	    <label class="col-sm-2 control-label">Nome</label>
-	    <div class="col-sm-3">
-	      <input type="text" name="txtnome" class="form-control" placeholder="Nome" title="digite o nome" required="required">
-	    </div>
-	  </div>
+	<form action="valida.php" method="POST" class="form-horizontal" role="form">
+		  <div class="form-group">
+		    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+		    <div class="col-sm-3">
+		      <input type="email" class="form-control" name="txtEmail" id="txtEmail" placeholder="Email">
+		    </div>
+		  </div>
 
-	  <div class="form-group">
-	    <label for="inputPassword3" class="col-sm-2 control-label">Senha</label>
-	    <div class="col-sm-3">
-	      <input type="password" class="form-control" name="txtpass" placeholder="Senha" title="digite a senha" required="required">
-	    </div>
-	  </div>
+		  <div class="form-group">
+		    <label for="inputPassword3" class="col-sm-2 control-label">Senha</label>
+		    <div class="col-sm-3">
+		      <input type="password" class="form-control" name="txtSenha" id="txtSenha" placeholder="Password" required="required">
+		    </div>
+		  </div>
 
-	  <div class="form-group">
-	    <div class="col-sm-offset-2 col-sm-10">
-	      <button type="submit" name="btnSubmit" class="btn btn-default">Cadastrar</button>
-	    </div>
-	  </div>
+		  <div class="form-group">
+		    <div class="col-sm-offset-2 col-sm-10">
+		      <button type="submit" name="btnSubmit" class="btn btn-default">Entrar</button>
+		    </div>
+		  </div>
 	</form>
 </div>
 

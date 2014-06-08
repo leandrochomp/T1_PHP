@@ -1,12 +1,6 @@
 <?php 
-	include('../index.php');
+	include('../menu.php');
 ?>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="../app/css/bootstrap.css" rel="stylesheet">
-<link href="../app/css/bootstrap-theme.css" rel="stylesheet">
-<link href="../app/css/font-awesome.min.css" rel="stylesheet">
-<link href="../app/css/style.css" rel="stylesheet">
 <div class="container">
 
 	<form method="POST" action="mdc-calculo.php" class="form-horizontal" role="form">
@@ -30,11 +24,17 @@
 	    </div>
 	  </div>
 	</form>
+	  <div>
+    <a href="#"> Exercicio 1</a>
+    <a href="#"> Exercicio 2</a>
+    <a href="#"> Exercicio 3</a>
+    <a href="ex8/gerencia-imoveis.php"> Exercicio 4</a>
+    <ul> Exercicio 5 
+      <li> <a href="ex5/mdc-form.php"> MDC </a> </li>
+      <li> <a href="ex5/fibonacci-form.php"> Fibonacci </a> </li>
+    </ul>
+    <a href="ex6/index.php">Exercicio 6, </a> 
+    <a href="ex7/index.php"> Exercicio 7,</a>
+    <a href="ex8/gerencia-imoveis.php"> Exercicio 8</a>
+  </div>
 </div>
-<script src="../app/js/jquery-1.11.0.js "></script>
-<script src="../app/js/bootstrap.js"></script>
-<script src="../app/js/app.js"></script>
-<?php 
-	include('../includes/include-css.php'); 
-	include('../includes/include-footer.php');
-?> 
