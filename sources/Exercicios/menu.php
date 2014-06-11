@@ -23,10 +23,10 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="../../index.php">Início</a></li>
+        <li><a href="../../index.php">Início</a></li>
         <li><a href="../../formacao.php">Formação</a></li>
         <li><a href="../../experiencia.php">Experiência</a></li>
-        <li><a href="../../Exercicios/portifolio.php">Poritfólio</a></li>
+        <li><a href="../../Exercícios/portifolio.php">Poritfólio</a></li>
       </ul>
     </div>
   </div>

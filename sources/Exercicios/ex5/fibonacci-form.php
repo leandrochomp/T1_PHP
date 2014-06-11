@@ -1,22 +1,18 @@
 <?php 
 	include('../menu.php');
 ?>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="../../app/css/bootstrap.css" rel="stylesheet">
-	<link href="../../app/css/bootstrap-theme.css" rel="stylesheet">
-	<link href="../../app/css/font-awesome.min.css" rel="stylesheet">
-	<link href="../../app/css/style.css" rel="stylesheet">
-</head>
 
 <div class="container">
+	<p> Voce está no <strong> Exercício 05 - FIBONACCI</strong> </p>
+	<br>
+	<span> Tem a finalidade de realizar um "mini-game" onde o usuário tenta acertar algum número na sequência de Fibonacci.</span>
+	<p> <span> Vamos jogar?</span> </p>
 
 	<form method="POST" action="fibonacci-resultado.php" class="form-horizontal" role="form">
 	  <div class="form-group">
 	    <label for="Nome" class="col-sm-2 control-label">Insira um valor:</label>
 	    <div class="col-sm-3">
-	      <input type="text" class="form-control" id="valor" name="valor">
+	      <input type="text" class="form-control" id="valorFib" name="valorFib">
 	    </div>
 	  </div>
 
@@ -26,7 +22,8 @@
 	    </div>
 	  </div>
 	</form>
+
+	<div>
+    	<?php include('../lista.php'); ?>
+    </div>
 </div>
-<script src="../app/js/jquery-1.11.0.js "></script>
-<script src="../app/js/bootstrap.js"></script>
-<script src="../app/js/app.js"></script>

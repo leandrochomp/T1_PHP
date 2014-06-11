@@ -3,7 +3,11 @@
  ?>
 <div class="container">
   <div>
-    <p>Bem vindo ao meu portifólio, meu nome é Leandro Nascimento. 
+    <p>Bem vindo ao meu portifólio, meu nome é <strong> Leandro Nascimento. </strong> </p>
+    <div>
+      <img src="app/img/perfil.jpg" height="350" width="350"
+    </div>
+    <br>
     <p> Atualmente estou no ultimo semestre no curso de Análise e Desenvolvimento de Sistemas na <a href="http://www.unimonte.br/capa/">UNIMONTE</a>.</p>
       Fiz diversos cursos de programação, e quero sempre aprender mais. Para saber mais sobre minha carreira acesse a aba Experiência.
     </p>
@@ -24,5 +28,5 @@
     <p> Para maiores informações sobre projetos realizados ou em andamento acesse meu Github.</p>
     <a href="https://github.com/leandrochomp"> <img src="app/img/github.png"></a>
   </div>
-
+<br>
 </div>

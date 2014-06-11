@@ -7,7 +7,10 @@
 
 
 <div class="container">
-<p> Você está no Exercicio 6, ele aborda o tema X </p>
+	<p> Voce está no <strong> Exercício 06 </strong> </p>
+	<br>
+	<span> Aborda um login simples através de cookie.</span>
+	<p> <span> Insira seu: Email, login e senha.</span> </p>
 	<form action="registro.php" method="POST" class="form-horizontal" role="form">
 	  <div class="form-group">
 	    <label class="col-sm-2 control-label">Email</label>
@@ -37,15 +40,8 @@
 	  </div>
 	</form>
 	<div>
-  <a href="#"> Exercicio 1</a>
-  <a href="#"> Exercicio 2</a>
-  <a href="#"> Exercicio 3</a>
-    <a href="ex8/gerencia-imoveis.php"> Exercicio 4</a>
-    <ul> Exercicio 5 
-      <li> <a href="ex5/mdc-form.php"> MDC </a> </li>
-      <li> <a href="ex5/fibonacci-form.php"> Fibonacci </a> </li>
-    </ul>
-    <a href="ex7/index.php"> Exercicio 7,</a>
-    <a href="ex8/gerencia-imoveis.php"> Exercicio 8</a>
-  </div>
+	<?php 
+		include('../lista.php'); 
+	?>
+	</div>
 </div>

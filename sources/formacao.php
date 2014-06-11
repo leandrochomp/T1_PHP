@@ -2,7 +2,6 @@
   include('menu.php');
  ?>
 <div class="container">
-  <h3><a href="#" target="_blank">Imprima aqui</a></h3>
   <h1>Leandro Nascimento</h1>
 
   <p><strong>Formação</strong></p>
@@ -26,50 +25,37 @@
     TECNOPONTA – Java com JSP e Servlets / MySQL – (2011).
   </p>
 
-  <p><strong>Linguagens de Programação</strong></p>
+  <p><strong>Conhecimentos extra-curriculares</strong></p>
   <ul>
     <li>PHP;</li>
-    <li>ASP.NET;</li>
+    <li> <strong> ASP.NET; </strong></li>
     <li>C#.NET;</li>
     <li>Java;</li>
-    <li>Javascript;</li>
+    <li><strong> Javascript; </strong></li>
       <ul>
         <li>JQuery;</li>
-        <li>AngularJS</li>
+        <li><strong> AngularJS </strong></li>
         <li>KnockoutJS</li>
       </ul>
-    <li>HTML5;</li>
-    <li>CSS3;</li>
-    <li>Twitter Bootstrap;</li>
+    <li><strong> HTML5; </strong></li>
+    <li><strong> CSS3; </strong></li>
+    <li><strong> Twitter Bootstrap; </strong></li>
     <li>Frameworks.</li>
     <ul>
-        <li>ADO.NET Entity 4.0;</li>
-        <li>MVC 4.5</li>
+        <li> <strong> ADO.NET Entity 4.0; </strong></li>
+        <li> <strong> MVC 4.5 </strong></li>
       </ul>
+      <li>Controle de Versão</li> 
+        <ul>
+        <li><strong> Tortoise SVN </strong></li>
+        <li> <strong>GitHub </strong></li>
+        </ul>
   </ul>
   <p><strong>Banco de dados</strong></p>
   <ul>
     <li>MySQL;</li>
     <li>Oracle;</li>
-    <li>SQL Server 2012</li>
-  </ul>
-
-    <p><strong>Habilidades e Competências</strong></p>
-  <ul>
-    <li>MODELAGEM DE DADOS;</li>
-    <li>UML;</li>
-    <li>LEVANTAMENTO DE REQUISITOS;</li>
-    <li>ENTREVISTA COM CLIENTES;</li>
-    <li>ENGENHARIA DE SOFTWARE;</li>
-    <li>ARQUITETURA DE SISTEMAS;</li>
-    <li>
-      METODOLOGIAS ÁGEIS;
-      <ul>
-        <li>SCRUM;</li>
-        <li>XP.</li>
-      </ul>
-    </li>
-    <li>REDES DE COMPUTADORES</li>
+    <li> <strong> SQL Server 2012 </strong></li>
   </ul>
 </div>
 </body>

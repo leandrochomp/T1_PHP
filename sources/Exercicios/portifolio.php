@@ -26,26 +26,26 @@
         <li class="active"><a href="../index.php">Início</a></li>
         <li><a href="../formacao.php">Formação</a></li>
         <li><a href="../experiencia.php">Experiência</a></li>
-        <li><a href="../Exercicios/portifolio.php">Poritfólio</a></li>
+        <li><a href="../Exercício/portifolio.php">Poritfólio</a></li>
       </ul>
     </div>
   </div>
 </nav>
 <div class="container">
-  <span> Aqui contem todas as listas dos exercicios resolvidos </span>
+  <span> Lista com as listas dos exercicios resolvidos </span>
   <div class="espaco"></div>
   <div>
-    <a href="#"> Exercicio 1</a>
-    <a href="#"> Exercicio 2</a>
-    <a href="#"> Exercicio 3</a>
-    <a href="ex8/gerencia-imoveis.php"> Exercicio 4</a>
-    <ul> Exercicio 5 
+    <a href="#"> Exercício 1</a>
+    <a href="#"> Exercício 2</a>
+    <a href="ex3/mostraPDF.php"> Exercício 3</a>
+    <a href="ex4/mostraPDF.php"> Exercício 4</a>
+    <ul> Exercício 5 
       <li> <a href="ex5/mdc-form.php"> MDC </a> </li>
       <li> <a href="ex5/fibonacci-form.php"> Fibonacci </a> </li>
     </ul>
-    <a href="ex6/index.php">Exercicio 6, </a> 
-    <a href="ex7/index.php"> Exercicio 7,</a>
-    <a href="ex8/gerencia-imoveis.php"> Exercicio 8</a>
+    <a href="ex6/index.php">Exercício 6, </a> 
+    <a href="ex7/index.php"> Exercício 7,</a>
+    <a href="ex8/gerencia-imoveis.php"> Exercício 8</a>
   </div>
 </div>
 

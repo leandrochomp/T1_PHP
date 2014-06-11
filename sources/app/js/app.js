@@ -9,6 +9,7 @@ $(document).ready( function () {
 
     $("#num1").keypress(verificaNumero);
     $("#num2").keypress(verificaNumero);
+    $("#valorFib").keypress(verificaNumero);
 
 //AJAX VAI QUE PRECISE
       $('#Form').submit( function() {

@@ -1,10 +1,10 @@
 <?php
 
 include('../menu.php');
-if(isset($_COOKIE["login"]) && isset($_COOKIE["senha"])){
+if(isset($_COOKIE["loginJogador"]) && isset($_COOKIE["senhaJogador"])){
 	if(isset($_POST["submit"])){
-		if ($_POST["txtLogin2"] == $_COOKIE["login"] && 
-			$_POST["txtSenha2"] == $_COOKIE["senha"])
+		if ($_POST["txtLogin2"] == $_COOKIE["loginJogador"] && 
+			$_POST["txtSenha2"] == $_COOKIE["senhaJogador"])
 			echo "Ola,".$_COOKIE['nome']. ", seu logon foi efetuado com sucesso.<br/>";
 		else
 			echo "Dados de login ou senha invalidos.<br/>";
@@ -37,4 +37,8 @@ else
 	    </div>
 	  </div>
 	</form>
+	<?php 
+		include('../lista.php'); 
+	?>
+	</div>
 </div>

@@ -3,6 +3,11 @@
 ?>
 <div class="container">
 
+<p> Voce está no <strong> Exercício 05 - MDC</strong> </p>
+	<br>
+	<span> Tem a finalidade de realizar um calculo matematico, através do algoritmo de Euclides, mais conhecido como MDC.</span>
+	<p></p>
+
 	<form method="POST" action="mdc-calculo.php" class="form-horizontal" role="form">
 	  <div class="form-group">
 	    <label for="Nome" class="col-sm-2 control-label">Primeiro Número:</label>
@@ -24,17 +29,7 @@
 	    </div>
 	  </div>
 	</form>
-	  <div>
-    <a href="#"> Exercicio 1</a>
-    <a href="#"> Exercicio 2</a>
-    <a href="#"> Exercicio 3</a>
-    <a href="ex8/gerencia-imoveis.php"> Exercicio 4</a>
-    <ul> Exercicio 5 
-      <li> <a href="ex5/mdc-form.php"> MDC </a> </li>
-      <li> <a href="ex5/fibonacci-form.php"> Fibonacci </a> </li>
-    </ul>
-    <a href="ex6/index.php">Exercicio 6, </a> 
-    <a href="ex7/index.php"> Exercicio 7,</a>
-    <a href="ex8/gerencia-imoveis.php"> Exercicio 8</a>
-  </div>
+<?php 
+	include('../lista.php');
+ ?>
 </div>

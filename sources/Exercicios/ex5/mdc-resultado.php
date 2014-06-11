@@ -2,7 +2,7 @@
 	session_start();
 ?>
 <?php 
-	include('../index.php');
+	include('../menu.php');
 ?>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,10 +16,3 @@
 	<strong><a href="mdc-form.php">Voltar</a></strong>
 
 </div>
-<script src="../app/js/jquery-1.11.0.js "></script>
-<script src="../app/js/bootstrap.js"></script>
-<script src="../app/js/app.js"></script>
-<?php 
-	include('../includes/include-css.php'); 
-	include('../includes/include-footer.php');
-?> 
