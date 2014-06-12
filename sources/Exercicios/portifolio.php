@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -35,9 +35,9 @@
   <span> Lista com as listas dos exercicios resolvidos </span>
   <div class="espaco"></div>
   <div>
-    <a href="#"> Exercício 1</a>
-    <a href="#"> Exercício 2</a>
-    <a href="ex3/mostraPDF.php"> Exercício 3</a>
+    <a href="ex/index.php"> Exercício 1</a>
+    <a href="ex2/index.php"> Exercício 2</a>
+    <a href="ex3/index.php"> Exercício 3</a>
     <a href="ex4/mostraPDF.php"> Exercício 4</a>
     <ul> Exercício 5 
       <li> <a href="ex5/mdc-form.php"> MDC </a> </li>

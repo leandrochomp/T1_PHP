@@ -1,10 +1,10 @@
 <?php
-
 include('../menu.php');
-if(isset($_COOKIE["loginJogador"]) && isset($_COOKIE["senhaJogador"])){
+
+if(isset($_COOKIE["login"]) && isset($_COOKIE["senha"])){
 	if(isset($_POST["submit"])){
-		if ($_POST["txtLogin2"] == $_COOKIE["loginJogador"] && 
-			$_POST["txtSenha2"] == $_COOKIE["senhaJogador"])
+		if ($_POST["txtLogin"] == $_COOKIE["login"] && 
+			$_POST["txtSenha"] == $_COOKIE["senha"])
 			echo "Ola,".$_COOKIE['nome']. ", seu logon foi efetuado com sucesso.<br/>";
 		else
 			echo "Dados de login ou senha invalidos.<br/>";
@@ -20,14 +20,14 @@ else
 	  <div class="form-group">
 	    <label class="col-sm-2 control-label">Login</label>
 	    <div class="col-sm-3">
-	      <input type="text" name="txtLogin2" class="form-control" placeholder="Nome" title="digite o nome" required="required">
+	      <input type="text" name="txtLogin" class="form-control" placeholder="Nome" title="digite o nome" required="required">
 	    </div>
 	  </div>
 
 	  <div class="form-group">
 	    <label for="inputPassword3" class="col-sm-2 control-label">Senha</label>
 	    <div class="col-sm-3">
-	      <input type="password" class="form-control" name="txtSenha2" placeholder="Senha" title="digite a senha" required="required">
+	      <input type="password" class="form-control" name="txtSenha" placeholder="Senha" title="digite a senha" required="required">
 	    </div>
 	  </div>
 

@@ -26,7 +26,7 @@
         <li><a href="../../index.php">Início</a></li>
         <li><a href="../../formacao.php">Formação</a></li>
         <li><a href="../../experiencia.php">Experiência</a></li>
-        <li><a href="../../Exercícios/portifolio.php">Poritfólio</a></li>
+        <li><a href="../../Exercicios/portifolio.php">Poritfólio</a></li>
       </ul>
     </div>
   </div>

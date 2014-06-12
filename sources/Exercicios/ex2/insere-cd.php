@@ -14,40 +14,42 @@ if(isset($_POST["inserir"])){
     }
     header("LOCATION: index.php");
 }
+
+include('../menu.php');
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Coleção de CDs - Inserir novo CD</title>
-</head>
+<div class="container">
+  <h2>Inserir novo CD</h2>
+  <form action="insere-cd.php" method="post" name="insere-cd" id="insere-cd" class="form-horizontal" role="form">
+    <div class="form-group">
+      <label for="Nome" class="col-sm-2 control-label">Título:</label>
+      <div class="col-sm-3">
+        <input type="text" class="form-control" id="titulo" name="titulo">
+      </div>
+    </div>
 
-<body>
-<h1>Coleção de CDs</h1>
-<h2>Inserir novo CD</h2>
-<form action="insere-cd.php" method="post" name="insere-cd" id="insere-cd">
-  <label>Título: <br>
-  <input type="text" name="titulo" id="titulo">
-  </label>
-  <p>
-    <label>Intérprete:
-    <br>
-    <input type="text" name="interprete" id="interprete">
-    </label>
-  </p>
-  <p>
-    <label>Ano:
-    <br>
-    <input type="text" name="ano" id="ano">
-    </label>
-  </p>
-  <p>
-    <label>
-    <input type="submit" name="inserir" id="inserir" value="Inserir CD">
-    </label>
-  </p>
-</form>
-</body>
+    <div class="form-group">
+      <label for="Nome" class="col-sm-2 control-label">Intérprete:</label>
+      <div class="col-sm-3">
+        <input type="text" class="form-control" id="interprete" name="interprete">
+      </div>
+    </div>
 
-</html>
+    <div class="form-group">
+      <label for="Nome" class="col-sm-2 control-label">Ano:</label>
+      <div class="col-sm-3">
+        <input type="text" class="form-control" id="ano" name="ano">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-12">
+        <button type="submit" class="btn btn-default" id="inserir" name="inserir">Inserir CD</button>
+      </div>
+    </div>
+  </form>
+
+  <div> 
+    <?php include('../lista.php'); ?>
+  </div>
+</div>

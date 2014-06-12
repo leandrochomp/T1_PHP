@@ -8,10 +8,14 @@ if(isset($_POST["confirmar"])){
 	try{
 		Conexao::executar($sql);
 		$_SESSION["status"] = "Registro apagado com sucesso!";
-        header("LOCATION: index.php");
+		echo '<script>window.location.href = "http://lnascimento.url.ph/sources/Exercicios/ex2/index.php"</script>';
+        // header("LOCATION: index.php");
 	} catch(Exception $e) {
 		$_SESSION["status"] = $sql . "<br>" . $e->getMessage();
-		header("LOCATION: index.php");
+		// header("LOCATION: index.php");
+		// echo '<script>window.location.href = "http://lhenrique-projetos.eti.br/exercicios/exe-2/index.php"</script>';
+
 	}
 }
+
 ?>

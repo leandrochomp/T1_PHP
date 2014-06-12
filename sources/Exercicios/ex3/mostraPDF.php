@@ -6,7 +6,7 @@ include('../menu.php');
 	<br>
 	<span> Responder as questões e entregá-las ao professor </span>
 	<div class="espaco"></div>
-	<p> Para acessar o conteudo clique <a href="../../app/pdf/Exercício3_Respondido.pdf">aqui</a></p>
+	<p> Para acessar o conteudo clique <a href="../../app/pdf/Exercicio3_Respondido.pdf">aqui</a></p>
 	<div>
 		<?php include('../lista.php'); ?>
 	</div>

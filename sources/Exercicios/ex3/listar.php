@@ -10,8 +10,8 @@ $registros = $db->fetchAll($select->assemble());
 <div class="container">
 	<table class="table">
 		<tr>
-			<th>Código</th>
-			<th>Título</th>
+			<th>C&oacutedigo</th>
+			<th>T&iacutetulo</th>
 			<th>Editora</th>
 			<th>Ano</th>
 			<th>Autor</th>
@@ -32,4 +32,8 @@ $registros = $db->fetchAll($select->assemble());
 			</tr>
 		<?php } ?>
 	</table>
+<div>
+	<div class="espaco"></div>
+	<p> Para acessar as respostas clique <a href="../../app/pdf/Exercicio3_Respondido.pdf">aqui</a></p>
+</div>
 </div>

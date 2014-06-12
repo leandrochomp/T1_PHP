@@ -1,10 +1,10 @@
-<?php 
+﻿<?php 
 	include('../menu.php');
 	require("Imoveis.class.php");
 	if(isset($_GET["salvar"])){
 		$obj = new Imovel($_GET["txtReferencia"],$_GET["txtTipo"],$_GET["txtQuarto"],$_GET["txtBairro"],$_GET["txtValor"] . "\n" );
 		$obj->salva("imoveis.csv");
-		header("Location: gerencia-imoveis.php");
+		echo '<script>window.location.href = "http://lnascimento.url.ph/sources/Exercicios/ex8/gerencia-imoveis.php";</script>';
 	}
 ?>
 <div class="container">
